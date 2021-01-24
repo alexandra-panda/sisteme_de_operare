@@ -1,0 +1,27 @@
+ps- afiseaza toate procesele
+-A afiseaza toate procesele
+-o scriem rezultatele pidurilor(proces ID)identificatorul procesului
+
+tail  - vă permite să depistaţi și afişaţi liniile la sfârșitul fișierului;
+-n asta sunt numarul de iteratii
+n - sortarea proceselor după identificatorul procesului (pid); 
++2 ca sa fie cate 2 iteratii
+*comanda gawk în Linux este utilizată pentru scanarea modelelor 
+și limbajul de procesare
+
+ statm – informații despre memoria utilizată, în pagini:
+       
+113 / 5000
+Результаты перевода
+getline () citește o linie întreagă din flux, 
+stocând adresele tamponului care conține textul în * lineptr.
+Comanda Split în Linux este utilizată pentru a împărți fișiere mari în fișiere mai mici.
+$1 o variabila in care se introduce rezultatul scaderii din val 2 se scade 2
+
+tr (scurt pentru traducere ) este un utilitar util de linie de comandă care traduce și / sau șterge caractere din intrarea stdin și scrie pe stdout.
+d (delay) - specifică intervalul dintre actualizările ecranului;
+r-read
+n - sortarea proceselor după identificatorul procesului (pid);
+-t 
+somipp 4
+-k2 sorteaza dupa caracterul al doilea

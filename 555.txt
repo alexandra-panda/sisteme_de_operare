@@ -1,0 +1,27 @@
+#!/bin/bash
+
+status=""
+
+for pid in $(ps -A -o pid )
+
+do
+
+file="/proc/"$pid"/status"
+
+file1="/proc/"$pid"/sched"
+
+ppid=$(grep -E -h -s -i "ppid" $file | grep -o "[0-9]\+")
+nr_switches=$(grep -E -h -s -i "nr_switches" $file1 | grep -o "[0-9]\+")
+sum_exec_runtime=$(grep -E -h -s -i "se.sum_exec_runtime" $file1 | grep -o "[0-9]\+\.[0-9]\+")
+avg_atom=`echo - | awk '{print '$sum_exec_runtime' / '$nr_switches' }'`
+
+if [[ $ppid != "" ]]
+
+then status=$status"ProcessID="$pid":Parent_ProcessID="$ppid":Average_Sleeping_Time="$avg_atom$'\n'
+
+fi
+
+done
+
+echo "$status" | sort -t':' -k 2.18n > file5.lst 
+cat file5.lst

@@ -1,0 +1,13 @@
+#! /bin/bash
+
+echo "Incepeti a introduce numere"
+echo "Introduceti un numar par pentru a opri"
+num=1
+count=0
+until  [ $[num%2] == 0 ]
+do
+read num
+let count=count+1
+done
+echo "Au fost introduse $count numere"
+exit 0

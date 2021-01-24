@@ -1,0 +1,16 @@
+#! /bin/bash
+
+dir=${PWD##*/}
+string_aux="home"
+if [ $dir == $string_aux ]
+then
+echo "Fisierul este executat din directoriul Home"
+echo `pwd`
+exit 0
+else
+echo "Error"
+echo "Fisierul nu este executat din directoriul Home"
+exit 1
+fi
+
+

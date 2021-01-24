@@ -1,0 +1,38 @@
+status- starea initiala nu contine nimic
+echo- afiseaza 
+-e - afişează informaţii despre toate procesele din sistem utilizând sintaxa standardă.
+> inregistram tot in fiesietul ex5.txt
+for- dupa pid in 
+
+ps-O listare a proceselor poate fi efectuată prin comanda ps (ps - process status):
+-A afisare
+-o -o - printeaza numai partile care corespund restrictiilor
+pid- dupa pid
+- Comanda tail – extrage liniile de sfârșit din fișier la stdout. 
+n - sortarea proceselor după identificatorul procesului (pid);(+2 iteratiile)
+-A toate procesele
+SCHED_OTHER este programatorul standard Linux de partajare a timpului
+        care este destinat tuturor firelor care nu necesită special
+        mecanisme în timp real.
+PPID – similar cu PID, cu excepția că reprezintă identificatorul procesului care a dat naștere procesului curent (cunoscut şi ca proces părinte). 
+
+Comanda grep – utilitară pentru căutarea şi sortarea liniilor introduse şi afişarea anumitor tipare (şiruri de caractere) ca rezultat al procesării: 
+  
+-e - afişează informaţii despre toate procesele din sistem utilizând sintaxa standardă.
+-h −	heap – indică o mulţime de procese (the process's heap).
+-s – informații despre starea procesului;
+
+i – afișează doar procesele curente (procesele în care câmpul STAT are valoarea R, Running).
+#orice caracter din ... ; sunt admise diapazoane de tipul а-z, a-z0-9;
+
+ + - de 1 sau mai multe ori; 
+?  - de 0 sau 1 ori. 
+.  -caracter arbitrar (orice caracter);
+Comanda cut – extrage unele câmpuri din fișierele textuale (prin câmp înțelegem secvență de simboluri până la spațiu).
+-d (delay) - specifică intervalul dintre actualizările ecranului;
+
+-l -  afişează informaţii despre  procese, diferită de –u;
+bc- realizeaza o grupare
+
+# -k3 - sorteaza dupa campul al 3-lea
+# cat - afiseaza continutul fisierului

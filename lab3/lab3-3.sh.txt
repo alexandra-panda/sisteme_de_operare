@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Incepeti a introduce caractere"
+echo "Introduceti q pentru a opri"
+char=0
+string=""
+until [ $char == "q" ]
+do
+read char
+string="$string$char"
+done
+echo "Caracterele introduse sunt"
+echo $string
+exit 0 

@@ -1,0 +1,22 @@
+#! /bin/bash
+
+n1=$1
+n2=$2
+n3=$3
+read n1
+read n2 
+read n3
+if [ $n1 -gt $n2 ]
+then
+result=$n1
+else
+result=$n2
+fi
+if [ $n3 -gt $result ]
+then
+result=$n3
+fi
+echo "Cel mai mare numar introdus este"
+echo $result
+exit 0
+
